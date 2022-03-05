@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="Français">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodie Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+</html>
+
+<body>
+  <nav class="navbar">
+    <h2>Foodie blog</h2>
+    <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About me</a></li>
+      <li><a href="#">Recipes</a></li>
+      <li><a href="#">Shopping</a></li>
+    </ul>
+  </nav>
+  <div class="searchsection">
+    <input
+      type="search"
+      id="site-search"
+      name="q"
+      aria-label="Search through site content"
+      autocomplete="off"
+      placeholder="Recipies ideas..."
+    />
+    <button>Search</button>
+  </div>
+
+  <div class="aboutthewebsite">
+    This blog was created by a bunch of cooking enthusiasts to share our
+    personal &amp; authentic family recipes, that we love, with our passionate
+    readers.
+    <br />
+    Here you can find plenty of recipe ideas for numerous dishes from worldwide
+    cuisine, that is of course suitable for all tastes, from meat lovers to
+    vegans, to keto-friendly and vegetarian dishes.
+    <br />
+    More ideas of tasty recipes can be found also on our adjacent website
+    <a href=" https://www.marmiton.org/" target="_blank">“Marmiton”.</a>
+  </div>
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 11</div>
+      <img src="photo1.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 11</div>
+      <img src="photo2.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 11</div>
+      <img src="photo3.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 11</div>
+      <img src="PHOTO4.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 11</div>
+      <img src="PHOTO5.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 11</div>
+      <img src="PHOTO6.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 11</div>
+      <img src="PHOTO7.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 11</div>
+      <img src="PHOTO8.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 11</div>
+      <img src="PHOTO9.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 11</div>
+      <img src="PHOTO10.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 11</div>
+      <img src="PHOTO11.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 11</div>
+      <img src="PHOTO12.jpg" style="width: 100%" />
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="photo1.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(1)"
+          alt="Soupe de lentilles"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="photo2.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(2)"
+          alt="Crème brûlée"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="photo3.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(3)"
+          alt="Soupe de poireaux"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO4.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(4)"
+          alt="Des macarons"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO5.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(5)"
+          alt="Clafoutis aux cerises"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO6.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(6)"
+          alt="Soupe à l'oignon"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO7.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(7)"
+          alt="Soupe à la creme"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO8.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(8)"
+          alt="Charlotte aux fraises"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO9.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(9)"
+          alt="Soupe aux legumes"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO10.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(10)"
+          alt="Paris Brest gateau"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO11.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(11)"
+          alt="Mille feuilles"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="demo cursor"
+          src="PHOTO12.jpg"
+          style="width: 280px; height: 280px"
+          ;
+          onclick="currentSlide(12)"
+          alt="Quiche lorraine"
+        />
+      </div>
+    </div>
+    <div class="plusdeliens">
+      Nos recettes les plus populaires:
+      <ul>
+        <a
+          href="https://www.marmiton.org/recettes/recette_quiche-lorraine-de-valerie_17512.aspx"
+          target="_blank"
+          >Quiche Lorraine</a
+        >
+        ,
+        <a
+          href="https://www.marmiton.org/recettes/recette_mille-feuilles_33004.aspx"
+          target="_blank"
+          >Mille feuilles vanille</a
+        >,
+        <a
+          href="https://www.marmiton.org/recettes/recette_paris-brest_12234.aspx"
+          target="_blank"
+          >Paris Brest noisette</a
+        >
+        ,
+        <a
+          href="https://www.marmiton.org/recettes/recette_soupe-aux-legumes-des-jours-de-rhume_36336.aspx"
+          target="_blank"
+          >Soupe aux legumes</a
+        >,
+
+        <a
+          href="https://www.marmiton.org/recettes/recette_charlotte-aux-fraises-et-fromage-blanc_28852.aspx"
+          target="_blank"
+          >Charlotte aux fraises et fromage blanc</a
+        >,
+
+        <a
+          href="https://www.marmiton.org/recettes/recette_soupe-cremeuse-au-chou-fleur-et-au-cumin_41208.aspx"
+          target="_blank"
+          >Soupe cremeuse au chou fleur</a
+        >,
+
+        <a
+          href="https://www.marmiton.org/recettes/recette_soupe-a-l-oignon-gratinee_20864.aspx"
+          target="_blank"
+          >Soupe a l'oignion</a
+        >,
+
+        <a
+          href="https://www.marmiton.org/recettes/recette_clafoutis-amandine-aux-cerises_28898.aspx"
+          target="_blank"
+          >Clafoutis Amandine aux cerises</a
+        >,
+
+        <a
+          href="https://www.marmiton.org/recettes/recette_macarons-noisettes-citron_63774.aspx"
+          target="_blank"
+          >Des macarons noisettes citron</a
+        >,
+
+        <a
+          href="https://www.marmiton.org/recettes/recette_la-soupe-de-poireaux-au-citron-et-curry-doux_69225.aspx"
+          target="_blank"
+          >Soupe de poireaux</a
+        >,
+        <a
+          href="https://www.marmiton.org/recettes/recette_creme-brulee-vanille_19434.aspx"
+          target="_blank"
+          >Creme brulee vanille</a
+        >
+      </ul>
+    </div>
+    <div class="amazonitems">
+      <p>Shopping items: our selection</p>
+      <ul>
+        <a
+          href="https://www.amazon.com/Airtight-Containers-Mrt-Pro-Organization/dp/B0836KW816/ref=sr_1_14_sspa?qid=1644329663&s=kitchen-intl-ship&sr=1-14-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQlIyNE9ESFBHMEExJmVuY3J5cHRlZElkPUEwNzIyMDY2Q1c1MEs0RlhSQ1BGJmVuY3J5cHRlZEFkSWQ9QTA1NTMyMDcxNU9FTkQxN1JIMExNJndpZGdldE5hbWU9c3BfbXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1"
+          target="_blank"
+          >Storage containers</a
+        >
+
+        <a
+          href="https://www.amazon.com/dp/B08HPBQ59K/ref=sbl_dpx_kitchen-thermoses_B09GXZKKLX_0 "
+          target="_blank"
+          >Water bottle</a
+        >
+
+        <a
+          href="https://www.amazon.com/Simply-Organic-Gourmet-Top-Spices/dp/B00JAHHR32/ref=sr_1_2?crid=1P2QEXBNLABPA&keywords=spices&qid=1644329880&sprefix=spices%2Caps%2C177&sr=8-2 "
+          target="_blank"
+          >Essential spices</a
+        >
+
+        <a
+          href="https://www.amazon.com/Viva-Oliva-Six-Gift-Set/dp/B07ZZLZBF8/ref=sr_1_11?crid=3KUNYBEQSZVEO&keywords=cooking+oils&qid=1644329939&sprefix=cooking+oils%2Caps%2C160&sr=8-11 "
+          target="_blank"
+          >oil selection</a
+        >
+
+        <a
+          href="https://www.amazon.com/LILIAO-Under-Sea-Cookie-Cutter/dp/B07RDDSG1J/ref=sr_1_1_sspa?crid=6EEO2ZX6KATC&keywords=cookie+cutters&qid=1644330078&s=home-garden&sprefix=cookie+cu%2Cgarden%2C174&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVEs4VTVJN1ZSS1lMJmVuY3J5cHRlZElkPUEwMDA4Nzk3MTIzN1RZSUVYNTdQTyZlbmNyeXB0ZWRBZElkPUEwNTA5NDE4M0ZPVUxYRFpFRjhKTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU= "
+          target="_blank"
+        >
+          cookie cutter</a
+        >
+
+        <a
+          href="https://www.amazon.com/dp/B095RZTWG2/ref=sspa_dk_detail_1?pd_rd_i=B095RZTWG2&pd_rd_w=A2pFb&pf_rd_p=9fd3ea7c-b77c-42ac-b43b-c872d3f37c38&pd_rd_wg=9on2n&pf_rd_r=E75HAKG78Z8R9XA2WYV1&pd_rd_r=027efdc4-4296-4afd-8912-f195334a4478&s=home-garden&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSTZXRDNMQTQyR1RaJmVuY3J5cHRlZElkPUEwOTA4OTE1MVBHMkVXNUFEWTkwTSZlbmNyeXB0ZWRBZElkPUEwMjQyMTA0MlEwRVBEOERJNFlKWCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1 "
+          target="_blank"
+        >
+          robot mixeur</a
+        >
+
+        <a
+          href="https://www.amazon.com/Cutting-Hanging-Primitive-Farmhouse-Decoration/dp/B0919RWXC5/ref=sr_1_3?crid=1C5DAZMR6R344&keywords=kitchen%2Bart%2Bwall%2Bdecor&qid=1644330340&sprefix=kitchen%2Bart%2Caps%2C175&sr=8-3&th=1  "
+          target="_blank"
+        >
+          Cutting board</a
+        >
+        <a
+          href="https://www.amazon.com/Betty-Crocker-BC-2930CRT-Cupcake-Maker/dp/B00K05AZ1Y/ref=sr_1_8?crid=341ROROG3M1Y5&keywords=muffin+maker&qid=1644330933&s=home-garden&sprefix=muffin+ma%2Cgarden%2C197&sr=1-8 "
+          target="_blank"
+        >
+          muffin maker</a
+        >
+      </ul>
+    </div>
+    <div class="cookingquotes">
+      <p>❝Food tastes better when you eat it with your family❞</p>
+      <p>❝People who love to eat are the best people❞ By Julia CHILD</p>
+      <p>❝Let food be thy medicine❞</p>
+      <p>❝Cooking well, with love, is an art.❞</p>
+      <p>❝Cooking is love made visible❞</p>
+      <p>❝No one is born a great cook, one learns by doing❞</p>
+      <p>❝Life is too short for fake butter or fake people❞ by Julia CHILD</p>
+    </div>
+  </div>
+  <footer>Copyright Foodie monster &#169; 2022</footer>
+</body>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+</html>

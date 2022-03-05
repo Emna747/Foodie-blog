@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@500&display=swap");
+
+HTML {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: rgb(44, 96, 192);
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.aboutthewebsite {
+  text-align: center;
+}
+h1 {
+  color: rgb(20, 54, 202);
+  font-family: Dancing Script, Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+p {
+  font-size: 26px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.plusdeliens {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 26px;
+}
+
+body {
+  margin: 1.5rem 3rem;
+}
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 5px 5px;
+  border-bottom: 4px double #2c786c;
+}
+
+nav a:hover {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: #2c786c;
+}
+a:visited {
+  color: #2c786c;
+}
+a:hover {
+  color: #2c786c;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 6rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.searchsection {
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 0.7rem;
+}
+h2 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+  margin: 5px 5px;
+  font-family: Dancing Script, Arial, Helvetica, sans-serif;
+  color: #ff7c7c;
+}
+
+button {
+  background-color: #004445;
+  color: whitesmoke;
+  border: black 1px solid;
+  flex-basis: 7%;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  background-color: #f8b400;
+}
+#site-search {
+  display: flex;
+  flex-basis: 17%;
+}
+.aboutthewebsite {
+  font-size: 1.45rem;
+  display: block;
+  margin: 2.5rem 2.5rem;
+}
