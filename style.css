@@ -199,3 +199,15 @@ button:hover {
   display: block;
   margin: 2.5rem 2.5rem;
 }
+.therecipes {
+  border: red 4px solid;
+}
+.cookingquotes {
+  border: 4px aqua solid;
+}
+.shoopingitems {
+  border: blueviolet 4px solid;
+}
+footer {
+  border: greenyellow 4px solid;
+}
