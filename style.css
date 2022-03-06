@@ -180,7 +180,7 @@ a:hover {
   flex-basis: 17%;
 }
 .aboutthewebsite {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   margin: 2.5rem 2.5rem;
   font-family: "Times New Roman", Times, serif;
@@ -195,7 +195,7 @@ main h2 {
 }
 
 .thefrenchrecipes {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 2.5rem 2.5rem;
   font-family: "Times New Roman", Times, serif;
   border-bottom: #004445 4px double;
@@ -203,12 +203,14 @@ main h2 {
 }
 
 .thefrenchrecipes a {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #2c786c;
+  display: flex;
+  justify-content: center;
 }
 
 .popularrecipes {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   margin: 2.5rem 2.5rem;
   font-family: "Times New Roman", Times, serif;
@@ -217,19 +219,45 @@ main h2 {
 }
 
 .popularrecipes a {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #2c786c;
+  display: flex;
+  justify-content: center;
 }
 .shoopingitems {
-  border: blueviolet 4px solid;
+  font-size: 1.5rem;
+  margin: 2.5rem 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: #004445 4px double;
+  padding-bottom: 1.7rem;
 }
-
+.shoopingitems a {
+  font-size: 1.25rem;
+  color: #2c786c;
+  display: flex;
+  justify-content: center;
+}
 a:hover {
   color: #f8b400;
 }
 .cookingquotes {
-  border: 4px aqua solid;
+  font-size: 1rem;
+  margin: 2.5rem 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: #004445 4px double;
+  padding-bottom: 0.69rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
+
 footer {
-  border: greenyellow 4px solid;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.socialmediaicons {
+  display: flex;
+  gap: 1.3rem;
+  font-size: 2rem;
 }
