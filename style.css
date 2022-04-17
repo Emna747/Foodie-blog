@@ -9,112 +9,9 @@ HTML {
   box-sizing: inherit;
 }
 
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 80%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: yellowgreen;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  background-color: aqua;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/7 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: rgb(44, 96, 192);
-  padding: 2px 16px;
-  color: white;
-  font-size: 1.4rem;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 18%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
 body {
-  margin: 1.5rem 3rem;
+  margin: 2rem 9rem;
+  padding: 1rem 2rem;
 }
 .navbar {
   display: flex;
@@ -185,7 +82,6 @@ a:hover {
   text-align: center;
   margin: 2.5rem 2.5rem;
   font-family: "Times New Roman", Times, serif;
-  border: red 4 px solid;
 }
 
 main h2 {
@@ -222,20 +118,25 @@ main h2 {
   font-size: 1.25rem;
   color: #2c786c;
 
-  justify-content: center;
-}
+  text-align: center;
+  padding: 14px} 
+
+
 #shoopingitems {
   font-size: 1.5rem;
   margin: 2.5rem 2.5rem;
   font-family: "Times New Roman", Times, serif;
   border-bottom: #004445 4px double;
   padding-bottom: 1.7rem;
+
 }
 #shoopingitems a {
   font-size: 1.25rem;
   color: #2c786c;
-  justify-content: center;
-}
+  text-align: center;
+ padding: 14px;
+
+  }
 a:hover {
   color: #f8b400;
 }
@@ -260,11 +161,5 @@ footer {
   gap: 1.3rem;
   font-size: 2rem;
 }
-.mySlides {
-  border: 3px red solid;
-}
-.row {
-  border: 3px yellow solid;
-  display: flex;
-  flex-flow: row nowrap;
-}
+
+
